@@ -1,0 +1,12 @@
+{
+  "name": "log_output",
+  "version": "1.0.0",
+  "description": "Chapter 2. Excercise 1.1 - Getting Started",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Christopher Vestman",
+  "license": "ISC",
+  "dependencies": {}
+}

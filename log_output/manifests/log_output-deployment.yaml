@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log_output-dep
+spec:
+  selector:
+    matchLabels:
+      app: log_output
+  template:
+    metadata:
+      labels:
+        app: log_output
+    spec:
+      containers:
+        - name: log_output
+          image: druwan/log-output
